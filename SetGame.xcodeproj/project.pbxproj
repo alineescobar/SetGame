@@ -13,6 +13,8 @@
 		872FC759255B7B1E0061637A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 872FC757255B7B1E0061637A /* Main.storyboard */; };
 		872FC75B255B7B1F0061637A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 872FC75A255B7B1F0061637A /* Assets.xcassets */; };
 		872FC75E255B7B1F0061637A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 872FC75C255B7B1F0061637A /* LaunchScreen.storyboard */; };
+		872FC767255B7B3B0061637A /* SetCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872FC766255B7B3B0061637A /* SetCard.swift */; };
+		872FC76A255B7B630061637A /* SetCardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872FC769255B7B630061637A /* SetCardDeck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		872FC75A255B7B1F0061637A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		872FC75D255B7B1F0061637A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		872FC75F255B7B1F0061637A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		872FC766255B7B3B0061637A /* SetCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetCard.swift; sourceTree = "<group>"; };
+		872FC769255B7B630061637A /* SetCardDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetCardDeck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				872FC75A255B7B1F0061637A /* Assets.xcassets */,
 				872FC75C255B7B1F0061637A /* LaunchScreen.storyboard */,
 				872FC75F255B7B1F0061637A /* Info.plist */,
+				872FC766255B7B3B0061637A /* SetCard.swift */,
+				872FC769255B7B630061637A /* SetCardDeck.swift */,
 			);
 			path = SetGame;
 			sourceTree = "<group>";
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				872FC76A255B7B630061637A /* SetCardDeck.swift in Sources */,
 				872FC756255B7B1E0061637A /* ViewController.swift in Sources */,
 				872FC752255B7B1E0061637A /* AppDelegate.swift in Sources */,
+				872FC767255B7B3B0061637A /* SetCard.swift in Sources */,
 				872FC754255B7B1E0061637A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
